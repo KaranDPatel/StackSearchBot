@@ -17,20 +17,20 @@ Modular Design: The project is designed with modular functions, making it easy t
 
 **Prerequisites**
 
-Python 3.x installed on your system.
+-Python 3.x installed on your system.
 
-Required Python packages: requests.
+-Required Python packages: requests.
 
 
-Installation
+**Installation**
 
 Clone the Repository:
 
-git clone url
+-git clone url
 
 Install Required Python Packages:
 
-pip install requests
+-pip install requests
 
 Set Up Your Script:
 
@@ -40,7 +40,7 @@ Usage
 
 Run the Main Script:
 
-python your_script_name.py
+-python your_script_name.py
 
 The main script will execute the target Python script and handle errors.
 If errors are found, it will search Stack Overflow and open the most relevant results in your browser.
@@ -51,7 +51,7 @@ The script runs your target Python script using the execute_and_return function.
 
 If an error is detected, the script parses the error message, searches for it on Stack Overflow using the Stack Exchange API, and opens the top 3 relevant Stack Overflow links in your browser.
 
-File Structure
+**File Structure**
 
 your-repo-name/
 
