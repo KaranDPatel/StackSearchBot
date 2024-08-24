@@ -54,6 +54,7 @@ If an error is detected, the script parses the error message, searches for it on
 File Structure
 
 your-repo-name/
+
 ├── main.py                # Main script that handles execution and error detection
 
 ├── test.py                # Example script to be executed (replace with your own)
@@ -62,7 +63,7 @@ your-repo-name/
 
 └── requirements.txt       # List of Python dependencies (if applicable)
 
-Customization
+**Customization**
 
 Script to Execute: Modify the execute_and_return("python test.py") line to specify the script you want to run.
 
